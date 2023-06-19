@@ -1,0 +1,20 @@
+this 
+prototypal 
+inheritance 
+null vs undefined 
+.call .bind .apply 
+function currying 
+iife closure 
+arrow function
+higher order
+loop map
+hoisting
+event delegation
+ternary operator
+promises vs call backs
+shallow copy and deep copy
+/////////////////////////////////////////////////////
+closures
+array methods
+string methods
+set timeout expect the output questions.

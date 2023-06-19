@@ -1,0 +1,104 @@
+What is React and what problem does it solve?
+What is JSX in React? How is it different from regular JavaScript?
+What is the virtual DOM in React and how does it improve performance?
+Explain the concept of components in React.
+What is the difference between functional components and class components in React?
+How do you pass data from a parent component to a child component in React?
+What are React hooks? Provide examples of built-in hooks.
+How do you handle forms in React?
+Explain the concept of state in React and how it differs from props.
+What are controlled and uncontrolled components in React?
+What is the purpose of the key prop in React lists? Why is it important?
+How do you handle asynchronous operations in React?
+Explain the concept of context in React and how it can be used to share data across components.
+What are higher-order components (HOCs) in React? Provide an example of how to create and use an HOC.
+What is reconciliation in React? How does React determine when to update the DOM?
+Explain the concept of React Router and how it enables client-side routing in a React application.
+What are some performance optimization techniques in React?
+How can you integrate React with other JavaScript libraries or frameworks?
+What are the differences between React and Angular?
+What is the purpose of the shouldComponentUpdate lifecycle method in React? How can you optimize rendering using this method?
+Explain the concept of React Fragments and when they should be used.
+What are portals in React? Provide an example of how to use them.
+How do you handle errors in React? Explain the concept of error boundaries.
+What is the purpose of the useMemo and useCallback hooks in React? When should you use them?
+Explain the concept of code splitting in React. How can it improve the performance of your application?
+What are the different lifecycle methods of a React component and when are they invoked?
+Explain the concept of React's context API and how it differs from Redux for state management.
+What is the purpose of the React Developer Tools extension? How can it be helpful in debugging React applications?
+What is the significance of the "key" prop in React and why is it important for performance and reconciliation?
+Explain the concept of code reusability in React and how you can achieve it.
+How can you optimize performance when rendering large lists in React?
+What are the advantages and disadvantages of using React?
+ccWhat are the React synthetic events? How do they differ from native events?
+How does React handle forms and form validation?
+What are the PropTypes in React and how do you use them?
+Explain the concept of conditional rendering in React.
+How do you handle routing in a React application without using React Router?
+What is the role of the "key" prop in lists and why is it required?
+How do you handle state management in React without using Redux?
+Explain the concept of code splitting and lazy loading in React.
+What is the purpose of the "useEffect" hook in React and how does it work?
+How can you optimize the rendering of a React component?
+What is the purpose of the "useRef" hook in React and how does it differ from the "useState" hook?
+Explain the concept of higher-order components (HOCs) and how they can be used in React.
+What are the benefits of using React Native for mobile app development?
+How can you handle side effects in React components?
+Explain the concept of portals in React and how they are useful.
+What is the role of the "render" method in a React component?
+How can you optimize the performance of a React application using memoization?
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Explain how React Fiber reconciles the component tree and handles rendering updates.
+What are the differences between React's functional components and class components?
+How does React handle server-side rendering (SSR) and what are its benefits?
+What is the role of the "shouldComponentUpdate" method and how can it be used for performance optimization?
+Explain the concept of React suspense and how it can be used for lazy loading.
+What are React hooks and how do they change the way we write components?
+How can you handle code splitting in React to optimize bundle size and loading performance?
+Explain the concept of React portals and provide a use case for them.
+What is the purpose of the "forwardRef" function in React and how is it used?
+Explain the concept of React context and provide an example of how to use it for state management.
+How can you handle authentication and authorization in a React application?
+What are the differences between controlled and uncontrolled components in React?
+Explain the concept of React suspense and how it can be used for data fetching.
+What are the differences between React's "setState" and "useState" hooks?
+How can you handle forms and form validation in React?
+Explain the concept of React's error boundaries and how they help handle errors in component trees.
+What is the purpose of the "useMemo" hook in React and when should it be used?
+How can you perform server-side rendering (SSR) with React and Redux?
+Explain the concept of React's context API and how it differs from Redux for state management.
+What are the benefits and drawbacks of using Redux with React for state management?
+How can you optimize the performance of React components using memoization techniques?
+What are the best practices for performance optimization in React?
+Explain the concept of higher-order components (HOCs) and provide an example of how to create and use one.
+How can you handle animations and transitions in React?
+Explain the concept of React's memo and how it can be used to optimize functional components.
+What are the differences between React's "useEffect" and "useLayoutEffect" hooks?
+How can you handle side effects and async operations in React components?
+Explain the concept of React's concurrent mode and how it improves rendering performance.
+What are the differences between React Native and React for web development?
+How can you handle routing in a React application without using React Router?
+Explain the concept of code splitting and lazy loading in React.
+What are the best practices for testing React components?
+How can you handle internationalization (i18n) in a React application?
+Explain the concept of React's context selector and how it can optimize context consumer components.
+What are the differences between React's context API and third-party state management libraries like MobX?
+How can you handle forms with complex validation requirements in React?
+Explain the concept of React's concurrent mode and how it helps improve user experience.
+What are the differences between React's "useState" and "useReducer" hooks? When should each be used?
+How can you integrate React with a backend server or RESTful API?
+Explain the concept of React's virtualization and how it helps optimize rendering performance for large data sets.
+What are the differences between React's class components and function components in terms of performance and code readability?
+How can you handle state management in React without using Redux or context API?
+Explain the concept of React's error boundaries and how they help handle and recover from errors in component trees.
+What are the best practices for handling code splitting and lazy loading in React applications?
+How can you handle authentication and authorization in a React application using third-party libraries like Firebase or Auth0?
+Explain the concept of React's render props and how they can be used for component composition.
+What are the benefits and drawbacks of using React with TypeScript?
+How can you optimize the rendering performance of a React application with large lists or grids?
+Explain the concept of React's suspense and how it can be used for data fetching and code splitting.
+What are the differences between React's function components and class components in terms of state management and lifecycle methods?

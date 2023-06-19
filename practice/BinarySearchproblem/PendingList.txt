@@ -1,0 +1,4 @@
+watch video of useMemo and useCallback.
+What are the different lifecycle methods of a React component and when are they invoked?
+event bubbling
+setTimeout expect the output questions?
