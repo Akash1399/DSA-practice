@@ -1,0 +1,50 @@
+Write a function that checks if a given number is even or odd.
+Implement a function to find the maximum and minimum values in an array.
+Write a function that calculates the sum of all numbers from 1 to n.
+Implement a function that counts the number of vowels in a given string.
+Write a function that returns the Fibonacci sequence up to a given number of terms.
+Implement a function that checks if a given string is a valid email address.
+Write a function to reverse the order of words in a sentence.
+Implement a function that removes all whitespace from a string.
+Write a function that returns the square root of a given number.
+Implement a function to check if a given string is a valid palindrome ignoring spaces and punctuation.
+Write a function to find the second smallest element in an array.
+Implement a function to check if two strings are anagrams of each other.
+Write a function that finds the factorial of a given number recursively.
+Implement a function to check if a number is a prime number using the Sieve of Eratosthenes algorithm.
+Write a function that capitalizes the first letter of each word in a sentence.
+Implement a function that returns the number of occurrences of a specific element in an array.
+Write a function that converts a binary number to decimal.
+Implement a function to sort an array of objects based on a specific property value.
+Write a function that checks if a given string is a palindrome using recursion.
+Implement a function to remove all duplicates from an array without using built-in methods.
+Write a function that converts a decimal number to binary.
+Implement a function that checks if a given string is a valid URL.
+Write a function that finds the intersection of two arrays.
+Implement a function to truncate a string to a specified length and append ellipsis if necessary.
+Write a function that checks if a given year is a leap year.
+Implement a function to find the greatest common divisor (GCD) of two numbers.
+Write a function that converts a string to title case (capitalize the first letter of each word).
+Implement a function to merge two sorted arrays into a single sorted array.
+Write a function that checks if a given number is a perfect square.
+Implement a function to find the median of an array of numbers.
+Write a function that removes all falsy values from an array.
+Implement a function to reverse the order of characters in each word of a sentence.
+Write a function that generates a random hexadecimal color code.
+Implement a function to find the longest word in a sentence.
+Write a function that checks if a given string is a valid IPv4 address.
+Implement a function to find the power of a number using recursion.
+Write a function that returns the factorial of a given number iteratively.
+Implement a function to find the number of words in a sentence.
+Write a function that checks if a given string is a valid JSON.
+Implement a function to calculate the sum of all multiples of 3 and 5 below a given number.
+Write a function that finds the difference between two arrays.
+Implement a function to convert a string to camel case.
+Write a function that checks if a given number is a perfect number.
+Implement a function to find the mode (most frequent element) in an array.
+Write a function that calculates the exponentiation of a number with a given exponent.
+Implement a function to find the number of vowels and consonants in a string.
+Write a function that checks if a given string is a valid credit card number using the Luhn algorithm.
+Implement a function to check if a given number is a strong number.
+Write a function that calculates the sum of digits in a number.
+Implement a function to shuffle the elements of an array randomly
