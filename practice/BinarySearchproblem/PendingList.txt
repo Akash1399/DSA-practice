@@ -1,4 +1,11 @@
 watch video of useMemo and useCallback.
 What are the different lifecycle methods of a React component and when are they invoked?
 event bubbling
-setTimeout expect the output questions?
+debouncing and throttling reel
+package.json v/s package.lock.json
+npm v/s npx
+Profiler
+React fibre
+tree shakking React
+hot module replacment
+webpack,parcel,vite

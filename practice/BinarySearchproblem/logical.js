@@ -23,8 +23,8 @@ function palindrome(string) {
   return rString === string;
 }
 
-console.log(palindrome("Akash"));
-console.log(palindrome("SaaS"));
+console.log("Palindrome check",palindrome("Akash"));
+console.log("Palindrome check",palindrome("SaaS"));
 
 //! Question :=> Fibonacci Sequence: Write a function to generate the Fibonacci sequence up to a given number of terms.
 
@@ -37,18 +37,18 @@ function Fibonacci(limit) {
   return fibonacciSequence.join(",");
 }
 
-console.log(Fibonacci(8));
+console.log("fibonacci check",Fibonacci(8));
 
 //! Question :=>Factorial: Write a function to calculate the factorial of a given number.
 
-function Factorial(number) {
-  let sum = number;
-  for (let i = number - 1; i > 0; i--) {
-    sum *= i;
+function Factorial(number){
+  let sum=number
+  for (let i=number-1;i>0;i--){
+    sum=sum*i
   }
-  return sum;
+  return sum
 }
-console.log(Factorial(5));
+console.log("Factorial ",Factorial(5));
 
 //! Question :=> Find the Missing Number: Given an array containing numbers from 1 to N, find the missing number in the sequence.
 
@@ -68,7 +68,7 @@ function PrimeNumber(number) {
   return number % 2 === 0;
 }
 
-console.log(PrimeNumber(4));
+console.log("Prime Number",PrimeNumber(4));
 
 //! Question :=> Find the Longest Word: Write a function that takes a sentence as input and returns the longest word in the sentence.
 
