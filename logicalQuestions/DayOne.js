@@ -184,18 +184,115 @@ function checkLeapYear(year) {
     return false;
   }
 }
-console.log(checkLeapYear(2025))
+console.log(checkLeapYear(2025));
 
 // Write a function that converts a string to title case (capitalize the first letter of each word).
 
 function capitalize(string) {
-  const arrayString = string.split(' ');
-  const result = arrayString.map(word => {
+  const arrayString = string.split(" ");
+  const result = arrayString.map((word) => {
     const firstCapital = word.charAt(0).toUpperCase();
     const restOfWord = word.slice(1);
     return firstCapital + restOfWord;
   });
-  return result.join(' ');
+  return result.join(" ");
 }
 
-console.log(capitalize("Write a function that converts a string to title case capitalize the"));
+console.log(
+  capitalize(
+    "Write a function that converts a string to title case capitalize the"
+  )
+);
+
+//  Find sum numbers
+function SumNumber(arr, sum) {
+  let indexes = [];
+  arr.map((item, index) => {
+    let num = sum - item;
+    let secondNum = arr.findIndex((item) => item === num);
+    if (secondNum > 0 && indexes.length < 2) {
+      indexes = [index, secondNum];
+    }
+  });
+  return indexes;
+}
+
+console.log("the sum number", SumNumber([1, 2, 4, 5, 3, 6], 9));
+
+console.log(typeof null);
+console.log(typeof undefined);
+
+console.log(8 > 7 > 6 < 1);
+
+console.log(5 + true);
+
+console.log("5" + true);
+console.log("5" - true);
+
+console.log("1" + "1" - "1" + "1");
+
+let arr = [1, 2, 3, 4, 5];
+for (let i = 0; i < arr.length / 2; i++) {
+  arr[arr.length - 1 - i] = arr[i]; //5=1  4=2
+  arr[i] = arr[arr.length - 1 - i]; //1=5   2=4
+}
+console.log(arr);
+
+// const function1 = () => {
+//   console.log("Function 1");
+// };
+// const function2 = () => {
+//   console.log("Function 2");
+// };
+// const function3 = () => {
+//   return new Promise((resolve, reject) => {
+//     resolve("Function 3");
+//   });
+// };
+
+// const main = () => {
+//   console.log("Main");
+//   function1();
+//   function3().then((resp) => {
+//     console.log(resp);
+//   });
+//   function2();
+// };
+// main();
+
+//Main
+// function 1
+// function 3
+// function 2
+
+let deepArr = [
+  [1, 2, 3],
+  [1, 2, [1, 2, 3], 3],
+  [1, 2, 3],
+  [1, 2, 3],
+];
+
+function flatArray(array) {
+  deepArr.map((item) => {
+    if (item.typeof() === "object") flatArray(item);
+  });
+}
+
+// input = 'shgtw34652jbdy57gd'
+// output = 'shgtwjbdygd3245567'
+
+function sortNumber(string) {
+  let str = [];
+  let num = [];
+  for (let n of string) {
+    if (+n) {
+      num.push(n);
+    } else {
+      str.push(n);
+    }
+  }
+  num.sort((a, b) => a - b);
+  return `${str.join("")}${num.join("")}`;
+}
+
+console.log(sortNumber("shgtw34652jbdy57gd"));
